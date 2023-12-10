@@ -20,7 +20,7 @@ const isValidAmazonProductURL = (url: string) => {
   return false;
 }
 
-const SearchBar = () => {
+const Searchbar = () => {
   const [searchPrompt, setSearchPrompt] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
@@ -67,4 +67,4 @@ const SearchBar = () => {
   )
 }
 
-export default SearchBar
+export default Searchbar
